@@ -146,6 +146,8 @@ const styles: Record<string, CSSProperties> = {
     gap: 6,
     background: "linear-gradient(to bottom, #3b82f6, #1d4ed8)",
     boxShadow: `inset 0 0 4px 1px rgba(191, 219, 254, 0.45)`,
+    fontSize: "clamp(10px, 0.8vw, 12px)",
+    fontWeight: 450,
     color: "#ffffff",
   },
   items: {
@@ -158,6 +160,8 @@ const styles: Record<string, CSSProperties> = {
     justifyContent: "center",
     gap: 6,
     boxShadow: "inset 0 0 4px 1px var(--shadow-100)",
+    fontSize: "clamp(10px, 0.8vw, 12px)",
+    fontWeight: 450,
   },
   icona: {
     width: 12,
